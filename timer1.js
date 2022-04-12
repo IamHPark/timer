@@ -3,10 +3,6 @@
 // node timer1.js 10 3 5 15 9 
 
 const arg = process.argv.slice(2);
-//edge case1. no numbers provided, end 
-if(arg.length === 0) {
-  return;
-}
 
 //edge case 2, 3. negative or NaN
 for(const second of arg) {
